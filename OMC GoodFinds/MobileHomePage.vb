@@ -12,7 +12,7 @@ Public Class MobileHomePage
         logoBox.Size = New Size(120, 40)
         logoBox.Location = New Point(10, 10)
         logoBox.SizeMode = PictureBoxSizeMode.Zoom
-        logoBox.Load("C:\Users\kctg3\Downloads\logoomc.png")
+        logoBox.Image = My.Resources.logoomc
         Me.Controls.Add(logoBox)
 
         Dim yOffset As Integer = 60

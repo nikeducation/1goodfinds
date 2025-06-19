@@ -12,7 +12,7 @@
         logoBox.Size = New Size(200, 80)
         logoBox.Location = New Point((Me.ClientSize.Width - 200) \ 2, 30)
         logoBox.SizeMode = PictureBoxSizeMode.Zoom
-        logoBox.Load("C:\Users\kctg3\Downloads\logoomc.png")
+        logoBox.Image = My.Resources.logoomc
 
         Dim lblTitle As New Label()
         lblTitle.Text = "Sign In to GoodFinds"
