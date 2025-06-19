@@ -153,5 +153,8 @@
   <ItemGroup>
     <None Include="Resources\logoomc.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword-art-online-3840x2160-10492.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

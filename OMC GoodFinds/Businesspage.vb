@@ -43,7 +43,7 @@
         Me.Controls.Add(lblMenu)
 
         Dim menuItems As (String, String, String)() = {
-            ("https://source.unsplash.com/360x120/?street-food", "Americano", "Available"),
+            ("my.resources.sao", "Americano", "Available"),
             ("https://source.unsplash.com/360x120/?street-food", "Latte", "Unavailable"),
             ("https://source.unsplash.com/360x120/?street-food", "Egg Sandwich", "Available")
         }
@@ -59,6 +59,7 @@
             pic.Size = New Size(60, 60)
             pic.Location = New Point(5, 5)
             pic.SizeMode = PictureBoxSizeMode.StretchImage
+            pic.Image = My.Resources.sao
 
             Dim nameLbl As New Label()
             nameLbl.Text = item.Item2
